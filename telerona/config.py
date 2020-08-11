@@ -4,7 +4,7 @@ version = "1.2.0"
 repository = "https://github.com/aykuxt/telerona"
 
 countries = [
-    {"name": "Algeria", "flag": "🇩🇿"},
+    {"name": "Morocco", "flag": "🇲🇦"},
     {"name": "Austria", "flag": "🇦🇹"},
     {"name": "Belgium", "flag": "🇧🇪"},
     {"name": "Brazil", "flag": "🇧🇷"},
@@ -22,7 +22,7 @@ countries = [
     {"name": "Norway", "flag": "🇳🇴"},
     {"name": "S. Korea", "flag": "🇰🇷"},
     {"name": "Netherlands", "flag": "🇳🇱"},
-    {"name": "Peru", "flag": "🇵🇪"},
+    {"name": "Algeria", "flag": "🇩🇿"},
     {"name": "Portugal", "flag": "🇵🇹"},
     {"name": "Russia", "flag": "🇷🇺"},
     {"name": "Spain", "flag": "🇪🇸"},
