@@ -26,7 +26,7 @@ async def start(event, from_query=False):
         answer = event.respond
 
     await answer(
-        "**🦠🧻 Coronavirus tracker 🦠🧻**\n\n"
+        "**🦠🧻 Coronavirus Tracker 🦠🧻**\n\n"
         "**Global**\n"
         f"✔️ __{g['cases']}__ confirmed\n"
         f"😷 __{g['active']}__ active\n"
@@ -61,7 +61,7 @@ async def info(event):
         f"ℹ️ Version: {config.version}\n"
         f"🖋️ Creator: {config.creator}\n\n"
         f"👥 Total users: {db.get_user_count()}",
-        buttons=[[Button.url("💻 Source code", config.repository)], backcancel,],
+        buttons=[[Button.url("💬 Channel", config.repository)], backcancel,],
     )
 
 
@@ -105,14 +105,14 @@ async def loc_ger(event):
         c["todayDeaths"] = "N/A"
 
     await event.edit(
-        "**🦠 Coronavirus tracker 🦠**\n\n"
+        "**🦠 Coronavirus Tracker 🦠**\n\n"
         f"**{country}**\n"
         f"🧪 __{c['tests']}__ tests\n"
         f"✔️ __{c['cases']}__ confirmed\n"
         f"😷 __{c['active']}__ active\n"
         f"🩹 __{c['recovered']}__ recovered\n"
         f"💀 __{c['deaths']}__ deaths\n\n"
-        f"**Per one million**\n"
+        f"**Per One million**\n"
         f"🧪 __{c['testsPerOneMillion']}__ tests\n"
         f"😷 __{c['casesPerOneMillion']}__ cases\n"
         f"💀 __{c['deathsPerOneMillion']}__ deaths\n\n"
