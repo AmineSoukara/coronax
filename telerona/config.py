@@ -1,7 +1,7 @@
-creator = "@aykut"
-version = "1.2.0"
+creator = "@AmineSoukara"
+version = "7"
 
-repository = "https://github.com/aykuxt/telerona"
+repository = "https://t.me/helpbdarija"
 
 countries = [
     {"name": "Morocco", "flag": "🇲🇦"},
