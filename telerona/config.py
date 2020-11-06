@@ -1,7 +1,7 @@
 creator = "@AmineSoukara"
-version = "7"
+version = "1.7"
 
-repository = "https://t.me/helpbdarija"
+repository = "https://t.me/DamienSoukara"
 
 countries = [
     {"name": "Morocco", "flag": "🇲🇦"},
